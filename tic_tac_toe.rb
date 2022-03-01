@@ -142,6 +142,7 @@ class Board
     end
     
     def show_board
+        puts "\n\n"
         puts "| #{available_position[0]} | #{available_position[1]} | #{available_position[2]} |"
         puts " ---+---+--- "
         puts "| #{available_position[3]} | #{available_position[4]} | #{available_position[5]} |"
